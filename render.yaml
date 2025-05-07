@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: virtual-garden-backend
+    env: node
+    repo: https://github.com/sohayla-najib/virtual-garden-backend.git
+    branch: main
+    buildCommand: npm install
+    startCommand: npm start
