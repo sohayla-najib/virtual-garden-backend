@@ -2,13 +2,12 @@
   "name": "virtual-garden-backend",
   "version": "1.0.0",
   "main": "index.js",
-"scripts": {
-  "test": "jest",
-  "start": "node index.js",
-  "dev": "nodemon index.js",
-  "postinstall": "npm rebuild bcrypt --build-from-source"
-}
-
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "postinstall": "npm rebuild bcrypt --build-from-source"
+  },
   "dependencies": {
     "aws-sdk": "^2.1692.0",
     "axios": "^1.8.4",
