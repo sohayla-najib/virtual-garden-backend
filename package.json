@@ -6,7 +6,6 @@
     "test": "jest",
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "postinstall": "npm rebuild bcrypt --build-from-source"
   },
   "dependencies": {
     "aws-sdk": "^2.1692.0",
